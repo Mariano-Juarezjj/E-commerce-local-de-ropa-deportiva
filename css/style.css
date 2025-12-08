@@ -16,5 +16,14 @@
 }
 
 .barra-busqueda {
-    width: 150px;
+    width: 600px;
+    display: flex;
+    margin-right: 100px;
+}
+
+.btn-buscar {
+    width: 90px;
+    background-color: #002968;
+    border-radius: 10px;
+    color: white;
 }
