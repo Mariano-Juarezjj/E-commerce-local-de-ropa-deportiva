@@ -34,7 +34,6 @@ header {
 .barra-busqueda {
     width: 35vw;
     display: flex;
-    margin-right: 15vw;
 }
 
 .btn-buscar {
@@ -54,6 +53,10 @@ header {
     background-color: #ffd500;
     display: flex;
     justify-content: space-around;
+}
+
+.logo-footer2 {
+    width: 130px;
 }
 
 h3 {
