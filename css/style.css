@@ -47,3 +47,9 @@ header {
 .iconos {
     margin-right: 30px;
 }
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: #ffd500;
+}
