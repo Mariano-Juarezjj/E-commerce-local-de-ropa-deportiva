@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.articulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.tab-container {
+    width: 70vw;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.botines {
+    width: 50px;
+}
