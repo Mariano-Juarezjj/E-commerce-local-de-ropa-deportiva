@@ -30,6 +30,10 @@
     width: 50px;
 }
 
+.botones {
+    display: flex;
+}
+
 .canjear-cupon {
     width: 300px;
     background-color: #FDC500;
@@ -38,8 +42,11 @@
 
 .canjear-cupon h2 {
     background-color: #003F68;
+    height: 40px;
     font-size: 20px;
     color: white;
 }
 
-.canjear-cupon .btn-canjear
+.canjear-cupon .btn-canjear {
+
+}
