@@ -26,6 +26,11 @@
 
 }
 
-.botines {
+.articulo {
     width: 50px;
+}
+
+td:hover {
+    background-color: beige;
+    
 }
