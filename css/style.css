@@ -77,3 +77,11 @@ h3 {
     font-size: 1.4em;
 }
 
+.iconos a {
+    color: #002968;
+    transition: color 0.3s;
+}
+
+.iconos a:hover {
+    color: #00508d;
+}
