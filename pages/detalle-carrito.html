@@ -12,9 +12,9 @@
 </head>
 <body>
     <main>
-        <h1 class="titulo">CARRITO DE COMPRAS</h1>
-        <hr>
         <section class="articulos">
+                   <h1 class="titulo">CARRITO DE COMPRAS</h1>
+                   <p class="codigo-postal">Codigo postal: 4000</p>
             <div class="tab-container">
                 <table class="table table-hover table-bordered">
                     <thead class="table-warning">
@@ -64,15 +64,28 @@
                 <table class="table table-stripped .table-total">
                     <thead>
                         <tr>
-                            <th>Total:</th>
-                            <th>$250000</th>
+                            <td>Subtotal:</td>
+                            <td>$250000</td>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coste del envio</td>
+                            <td>$30000</td>
+                        </tr>
+                        <tr>
+                            <th>Total:</th>
+                            <th>$280000</th>
+                        </tr>
+                    </tbody>
                 </table>
-                <button type="submit" class="seguir-explorando">Seguir explorando</button>
+                <div class="botones-imp">
+                <button type="submit" class="seguir-explorando"><a href="./index.html">Seguir explorando</a></button>
                 <button type="submit" class="pagar">Pagar</button>
+                </div>
             </div>
         </div>
+        <a href=""></a>
         </section>
     </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
