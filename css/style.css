@@ -22,7 +22,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 100px;
 
 }
 
@@ -49,11 +49,23 @@
     border-radius: 8px;
     font-size: 20px;
     color: white;
+    text-align: center;
+    align-content: center;
 }
 
 .canjear-cupon .btn-canjear {
-    background-color: #003F68;
+    background-color: #002968;
     color: white;
+    font-size: 20px;
     border-radius: 10px;
     margin-top: 10px;
 }
+
+.btn-canjear:hover {
+    background-color: #00508D;
+}
+
+
+
+
+
