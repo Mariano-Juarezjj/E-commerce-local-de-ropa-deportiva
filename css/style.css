@@ -1,3 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-section {
+    width: 100%;
+    height: 130px;
+    background-color: #ffd500;
+    flex-direction: row;
+}
+
+.oferta-imperdible {
+    width: 100%;
+    height:20px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family: "bebas neue", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.vortex-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.barra-busqueda {
+    width: 35vw;
+    display: flex;
+    margin-left: 230px;
+}
+
+.btn-buscar {
+    width: 90px;
+    background-color: #002968;
+    border-radius: 10px;
+    color: white;
+}
+
+.iconos {
+    margin-right: 30px;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #ffd500;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-footer2 {
+    width: 130px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.terminos-y-ubicacion {
+    justify-content: center;
+}
+
+.iconos {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    width: 15vw;
+    gap: 20px;
+    font-size: 1.4em;
+}
+
+.iconos a {
+    color: #002968;
+    transition: color 0.3s;
+}
+
+.iconos a:hover {
+    color: #00508d;
+}
+
+.articulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.codigo-postal {
+    position: relative;
+    left: 30%;
+}
+
+.tab-container {
+    width: 70vw;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: "bebas neue", sans-serif;
+
+}
+
+.articulo {
+    width: 50px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.canjear-cupon {
+    height: 160px;
+    width: 300px;
+    background-color: #FDC500;
+    border-radius: 10px;
+    margin-right: 35vw;
+}
+
+.canjear-cupon h2 {
+    background-color: #003F68;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.canjear-cupon .btn-canjear {
+    background-color: #002968;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 74%;
+}
+
+.btn-canjear:hover {
+    background-color: #00508D;
+}
+
+.seguir-explorando {
+    width: 200px;
+    background-color: #002968;
+    border-radius: 8px;
+}
+
+.seguir-explorando a {
+    color: white;
+}
+
+.seguir-explorando:hover {
+    background-color: #00508D;
+}
+
+.pagar {
+    width: 100px;
+    background-color: #003F68;
+    color: white;
+    border-radius: 8px;
+}
+
+.pagar:hover {
+    background-color: #00508D;
+}
+
 .body {
         font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -7,14 +192,14 @@
     max-width: 100vw;
 }
 
-main {
+.main {
     width: 90%;
     max-width: 1100px;
     margin: auto;
     padding: 30px 0;
 }
 
-h1 {
+.h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
@@ -24,7 +209,7 @@ h1 {
 }
 
 
-section div {
+.section div {
     background: rgb(255, 255, 255);
     padding: 20px;
     margin-bottom: 40px;
@@ -35,12 +220,12 @@ section div {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-section div img {
+.section div img {
     border-radius: 12px;
     object-fit: cover;
 }
 
-section div p {
+.section div p {
     font-size: 18px;
     color: #444;
     line-height: 1.5;
@@ -54,12 +239,12 @@ section div p {
         align-items: center;
     }
 
-    section div img {
+    .section div img {
         width: 80%;
         max-width: 300px;
     }
 
-    section div p {
+    .section div p {
         text-align: center;
     }
 }
@@ -78,4 +263,3 @@ section div p {
 
 .btn-toggle:hover {
     background-color: #0056b3;
-}
