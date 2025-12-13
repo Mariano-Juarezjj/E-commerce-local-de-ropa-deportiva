@@ -23,6 +23,11 @@
     width: 100%;
 }
 
+.ad-h1 {
+    width: 20px;
+    font-family: "bebas neue";
+}
+
 .ad-container {
     height: 350px;
     background-color: antiquewhite;
@@ -35,6 +40,11 @@
 
 .ad-card {
     width: 350px;
+    height: 10px;
     margin: 50px;
 }
 
+.btn-ad {
+    color: white;
+    background-color: #00296B;
+}
