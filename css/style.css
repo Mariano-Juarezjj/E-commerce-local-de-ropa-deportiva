@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel-1 {
+    width: 55vw;
+}
+
+.carousel-image-fixed {
+    width: 55vw;
+    height: 60vh;
+}
