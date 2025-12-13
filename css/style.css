@@ -11,9 +11,25 @@
 
 .carrusel-1 {
     width: 55vw;
+    height: 60vh;
 }
 
 .carousel-image-fixed {
     width: 55vw;
     height: 60vh;
 }
+
+.ad {
+    width: 100%;
+}
+
+.ad-container {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.ad-articulos {
+    display: flex;
+    justify-content: center;
+}
+
