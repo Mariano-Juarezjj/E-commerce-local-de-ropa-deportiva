@@ -24,13 +24,12 @@
 }
 
 .ad-h1 {
-    width: 20px;
     font-family: "bebas neue";
 }
 
 .ad-container {
     height: 350px;
-    background-color: antiquewhite;
+    background-color: #FDC500;
 }
 
 .ad-articulos {
@@ -47,4 +46,9 @@
 .btn-ad {
     color: white;
     background-color: #00296B;
+}
+
+.btn-ad:hover {
+    background-color: #00509D;
+    color: white;
 }
