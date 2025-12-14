@@ -43,13 +43,18 @@ header {
 .barra-busqueda {
     width: 35vw;
     display: flex;
-    margin-left: 230px;
+    margin-left: 330px;
 }
 
 .btn-buscar {
     width: 90px;
     background-color: #002968;
     border-radius: 10px;
+    color: white;
+}
+
+.btn-buscar:hover {
+    background-color: #00508D;
     color: white;
 }
 
@@ -95,6 +100,17 @@ h3 {
 
 .iconos a:hover {
     color: #00508d;
+}
+
+.categorias-container {
+    width: 100%;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .carrusel {
