@@ -7,7 +7,7 @@
 }
 
 .espacio {
-    padding-top: 130px;
+    padding-top: 168.4px;
 }
 
 header {
@@ -43,11 +43,13 @@ header {
 .barra-busqueda {
     width: 35vw;
     display: flex;
-    margin-left: 330px;
+    margin-left: 170px;
 }
 
 .btn-buscar {
     width: 90px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
     background-color: #002968;
     border-radius: 10px;
     color: white;
@@ -108,9 +110,30 @@ h3 {
 
 .categorias {
     display: flex;
+    height: 40px;
+    gap: 30px;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #FDC500;
+}
+
+.categoria {
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #003F68;
+    border-radius: 10px;
+}
+
+.categoria:hover {
+    background-color: #00509D;
+    color: white;
 }
 
 .carrusel {
