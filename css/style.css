@@ -58,6 +58,7 @@ header {
 }
 
 .footer {
+    position: relative;
     height: 200px;
     width: 100%;
     background-color: #ffd500;
@@ -114,7 +115,7 @@ h3 {
 
 .ad {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 }
 
 .ad-h1 {
@@ -125,7 +126,7 @@ h3 {
 }
 
 .ad-container {
-    margin-top: 150px;
+    margin-top: 100px;
     height: 350px;
     background-color: #FDC500;
 }
@@ -192,7 +193,7 @@ h3 {
 
 .productos-section {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .productos-h2 {
@@ -202,7 +203,7 @@ h3 {
 }
 
 .productos-container {
-    margin-top: 150px;
+    margin-top: 100px;
     height: 350px;
 }
 
@@ -241,7 +242,7 @@ h3 {
 
 .marcas-section {
     width: 100%;
-    height: 170px;
+    height: 50vh;
 }
 
 .marca-h2 {
