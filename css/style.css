@@ -46,7 +46,7 @@
     width: 350px;
     height: 10px;
     margin: 50px;
-    font-family: "Bebas Neue", sans-serif;;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .img-container {
@@ -85,9 +85,23 @@
     color: white;
 }
 
+.productos-section {
+    width: 100%;
+}
+
 .productos-container {
+    margin-top: 150px;
+    height: 350px;
+}
+
+.productos {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+}
+
+.producto-card {
+    width: 300px;
+    margin: 50px;
+    font-family: "Bebas Neue", sans-serif;;
 }
