@@ -6,9 +6,15 @@
     box-sizing: border-box;
 }
 
+.espacio {
+    padding-top: 130px;
+}
+
 header {
     width: 100%;
     position: fixed;
+    z-index: 9999;
+    top: 0;
 }
 
 .navbar-section {
@@ -57,6 +63,7 @@ header {
     background-color: #ffd500;
     display: flex;
     justify-content: space-around;
+    z-index: 9999;
 }
 
 .logo-footer2 {
@@ -92,6 +99,7 @@ h3 {
 .carrusel {
     display: flex;
     justify-content: center;
+    height: 60vh;
 }
 
 .carrusel-1 {
