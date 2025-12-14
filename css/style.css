@@ -150,6 +150,13 @@
 
 .marcas-section {
     width: 100%;
+    height: 150px;
+}
+
+.marca-h2 {
+    margin-left: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
 }
 
 .marcas-container {
@@ -158,7 +165,3 @@
     margin: 10px;
 }
 
-.marca .img {
-    width: 110px;
-    height: 150px;
-}
