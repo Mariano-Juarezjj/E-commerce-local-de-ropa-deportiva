@@ -147,3 +147,18 @@
     background-color: #00509D;
     color: white;
 }
+
+.marcas-section {
+    width: 100%;
+}
+
+.marcas-container {
+    display: flex;
+    flex: row;
+    margin: 10px;
+}
+
+.marca .img {
+    width: 110px;
+    height: 150px;
+}
