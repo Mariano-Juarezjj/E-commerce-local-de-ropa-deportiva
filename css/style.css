@@ -107,5 +107,9 @@
 .producto-card {
     width: 300px;
     margin: 50px;
-    font-family: "Bebas Neue", sans-serif;;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.card-text {
+    font-size: 22px;
 }
