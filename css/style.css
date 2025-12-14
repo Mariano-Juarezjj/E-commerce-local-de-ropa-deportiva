@@ -104,6 +104,12 @@
     height: 100vh;
 }
 
+.productos-h2 {
+    font-size: 35px;
+    margin-left: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
 .productos-container {
     margin-top: 150px;
     height: 350px;
