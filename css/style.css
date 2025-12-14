@@ -50,6 +50,10 @@
     font-family: "Bebas Neue", sans-serif;
 }
 
+.tex-colr {
+    color: green;
+}
+
 .img-container {
     position: relative;
 }
@@ -79,13 +83,19 @@
 }
 
 .btn-ad {
+    font-size: 20px;
     color: white;
     background-color: #00296B;
+    width: 100px;
 }
 
 .btn-ad:hover {
     background-color: #00509D;
     color: white;
+}
+
+.card-text {
+    font-size: 22px;
 }
 
 .productos-section {
@@ -108,8 +118,9 @@
     width: 300px;
     margin: 50px;
     font-family: "Bebas Neue", sans-serif;
+    border-radius: 8px;
 }
 
-.card-text {
-    font-size: 22px;
+.product-body {
+    background-color: rgba(241, 241, 241, 0.658);
 }
