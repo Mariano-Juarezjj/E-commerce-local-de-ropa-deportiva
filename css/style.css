@@ -18,3 +18,14 @@
     flex-wrap: wrap;
     margin: 20px;
 }
+
+.cat-producto-card {
+    width: 350px;
+    height: 30vh;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 8px;
+}
+
+.product-body {
+    background-color: rgba(241, 241, 241, 0.658);
+}
