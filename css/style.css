@@ -84,3 +84,10 @@
     background-color: #00509D;
     color: white;
 }
+
+.productos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
