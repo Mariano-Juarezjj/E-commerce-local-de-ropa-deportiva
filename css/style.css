@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.btn-ad {
+    width: 110px;
+    font-size: 20px;
+    color: white;
+    background-color: #00296B;
+}
+
+.btn-ad:hover {
+    background-color: #00509D;
+    color: white;
+}
+
 .categoria-section {
     width: 100%;
 }
@@ -22,10 +34,27 @@
 .cat-producto-card {
     width: 350px;
     height: 30vh;
+    margin: 120px;
     font-family: "Bebas Neue", sans-serif;
     border-radius: 8px;
 }
 
 .product-body {
     background-color: rgba(241, 241, 241, 0.658);
+}
+
+.añadir-carrito {
+    margin-top: 10px;
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #00296B;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.añadir-carrito:hover {
+    background-color: #00509D;
+    color: white;
 }
