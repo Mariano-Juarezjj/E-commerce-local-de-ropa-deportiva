@@ -224,22 +224,33 @@ h3 {
     background-color: rgba(241, 241, 241, 0.658);
 }
 
-.añadir-carrito {
-    margin-top: 10px;
-    width: 175px;
-    height: 50px;
-    border-radius: 8px;
-    background-color: #00296B;
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
+  .categoria-section {
+    width: 100%;
+    height: 130vh;
+}
+
+.categoria-container {
+    width: 100%;
+}
+
+.p-categoria {
+    margin-top: 50px;
+    margin-left: 40vw;
     font-size: 20px;
 }
 
-.añadir-carrito:hover {
-    background-color: #00509D;
-    color: white;
+.categoria-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
 }
 
+.cat-producto-card {
+    width: 350px;
+    height: 30vh;
+    margin: 120px;
 .marcas-section {
     width: 100%;
     height: 50vh;
