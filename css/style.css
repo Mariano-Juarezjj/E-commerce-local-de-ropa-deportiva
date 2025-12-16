@@ -108,7 +108,9 @@ header {
 
 .carrusel {
     width: 100vw;
-    height: 70vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel,
@@ -313,7 +315,7 @@ header {
 
 @media (max-width: 992px) {
     .carrusel {
-        height: 55vh;
+        height: 10vh;
     }
 }
 
