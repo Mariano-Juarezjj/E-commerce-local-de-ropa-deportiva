@@ -260,13 +260,14 @@ header {
 }
 
 
-.footer {
+footer {
+    width: 100%;
     background-color: var(--amarillo-claro);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px 10px;
-    bottom: 100%;
+    bottom: 0%;
 }
 
 .footer h3 {
@@ -432,4 +433,71 @@ header {
 .btn-cantidad {
     background-color: #003F68;
     color: white;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.canjear-cupon {
+    height: 160px;
+    width: 300px;
+    background-color: #FDC500;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.canjear-cupon h2 {
+    background-color: #003F68;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.canjear-cupon .btn-canjear {
+    background-color: #002968;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 74%;
+}
+
+.btn-canjear:hover {
+    background-color: #00508D;
+}
+
+.seguir-explorando {
+    width: 200px;
+    background-color: #002968;
+    border-radius: 8px;
+}
+
+.seguir-explorando a {
+    color: white;
+}
+
+.seguir-explorando:hover {
+    background-color: #00508D;
+}
+
+.pagar {
+    width: 100px;
+    background-color: #003F68;
+    color: white;
+    border-radius: 8px;
+}
+
+.pagar:hover {
+    background-color: #00508D;
+}
+
+.total {
+    max-width: 500px;
 }
