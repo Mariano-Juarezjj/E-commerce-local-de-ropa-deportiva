@@ -1,149 +1,218 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Local de ropa deportiva">
-    <meta name="keywords" content="zapatillas, camisetas, futbol, tennis, basquetbol, shorts, botines, guantes, pelotas, medias, boca, river, argentina, adidas, nike, fila, lotto, reebok">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="assets/img/vortex-logo2.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Local de ropa deportiva" />
+    <meta
+      name="keywords"
+      content="zapatillas, camisetas, futbol, tennis, basquetbol, shorts, botines"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="../assets/img/vortex-logo2.png"
+      type="image/x-icon"
+    />
+
     <title>Vortex</title>
-</head>
-<body>
-<section class="espacio">
-    </section>
+  </head>
+
+  <body>
+    <section class="espacio"></section>
+
     <header class="header">
-       <section class="navbar-section">
-  <div class="oferta-imperdible">
-    <a href="../pages/detalle-categoria-ofertas.html">OFERTA IMPERDIBLE 40% DE DESCUENTO EN BOTINES🔥🔥🔥</a>
-  </div>
-  <nav class="navbar navbar-expand-lg navbar-section">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">
-        <img src="../assets/img/vortex-logo2.png" alt="logo" class="vortex-logo">
-      </a>
-      <button
-        class="navbar-toggler ms-auto"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarMenu"
-        aria-controls="navbarMenu"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <form class="barra-busqueda ms-lg-4 my-3 my-lg-0" role="search">
-          <input class="form-control" type="search" placeholder="Buscar">
-          <button class="btn btn-buscar" type="submit">Buscar</button>
-        </form>
-        <div class="iconos ms-lg-4 my-3 my-lg-0">
-          <a href="../pages/login.html"><i class="fa-regular fa-user"></i></a>
-          <a href="../pages/login.html"><i class="fa-solid fa-heart"></i></a>
-          <a href="../pages/detalle-carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      <div class="oferta-imperdible d-none d-sm-flex">
+        <a href="#">OFERTA IMPERDIBLE 40% DE DESCUENTO EN BOTINES 🔥</a>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-section">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="/assets/img/vortex-logo2.png"
+              alt="logo"
+              class="vortex-logo"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <form class="barra-busqueda ms-lg-4 my-3 my-lg-0" role="search">
+              <input class="form-control" type="search" placeholder="Buscar" />
+              <button class="btn btn-buscar" type="submit">Buscar</button>
+            </form>
+
+            <div class="iconos ms-lg-4 my-3 my-lg-0">
+              <a href="/pages/login.html"><i class="fa-regular fa-user"></i></a>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+              <a href="/pages/detalle-carrito.html"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </div>
+
+            <div class="categorias ms-lg-auto mt-3 mt-lg-0">
+              <a href="#" class="categoria">OFERTAS</a>
+              <a href="#" class="categoria">Hombre</a>
+              <a href="#" class="categoria">Mujer</a>
+              <a href="#" class="categoria">Calzado</a>
+              <a href="#" class="categoria">Botines</a>
+              <a href="#" class="categoria">Niños</a>
+            </div>
+          </div>
         </div>
-        <div class="categorias ms-lg-auto mt-3 mt-lg-0">
-          <a href="../pages/detalle-categoria-ofertas.html" class="categoria">OFERTAS</a>
-          <a href="../pages/detalle-categoria-hombre.html" class="categoria">Hombre</a>
-          <a href="../pages/detalle-categorias-mujer.html" class="categoria">Mujer</a>
-          <a href="../pages/error404.html" class="categoria">Calzado</a>
-          <a href="../pages/error404.html" class="categoria">Pantalones</a>
-          <a href="../pages/error404.html" class="categoria">Botines</a>
-          <a href="../pages/error404.html" class="categoria">Niños</a>
+      </nav>
+    </header>
+
+    <main class="container my-5">
+      <div class="row gy-4 align-items-start">
+
+        <div class="col-12 col-md-6 imagen-producto text-center">
+          <img
+            src="../assets/img/camiseta-argentina-hombre.jpg"
+            alt="camiseta argentina hombre"
+            class="img-fluid imagen-detalle-producto"
+          />
+        </div>
+
+        <div class="col-12 col-md-6 interfaz">
+          <h2 class="detalle-titulo">Camiseta Argentina Hombre</h2>
+
+          <p class="texto1 mt-3">Precio final</p>
+          <p class="texto-oferta">
+            <del>$40.000</del> -50%
+          </p>
+          <p class="texto-oferta">$20.000</p>
+          <p class="texto">Precio con impuestos</p>
+
+          <hr />
+
+          <h3>Cuotas habituales</h3>
+          <p class="cuota">3 cuotas sin interés</p>
+          <p class="cuota">6 cuotas sin interés</p>
+
+          <div class="d-flex gap-3 my-2">
+            <i class="fa-brands fa-cc-mastercard tarjeta"></i>
+            <i class="fa-brands fa-cc-visa tarjeta"></i>
+            <i class="fa-brands fa-cc-paypal tarjeta"></i>
+          </div>
+
+          <hr />
+
+          <h3 class="detalle-titulo">Seleccioná tu talle</h3>
+
+          <div class="dropdown talle-drop my-2">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Talles
+            </button>
+            <ul class="dropdown-menu talles">
+              <li><a class="dropdown-item" href="#">S</a></li>
+              <li><a class="dropdown-item" href="#">M</a></li>
+              <li><a class="dropdown-item" href="#">L</a></li>
+              <li><a class="dropdown-item" href="#">XL</a></li>
+              <li><a class="dropdown-item" href="#">XXL</a></li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <p class="texto">Envíos a todo el país</p>
+          <p class="texto">Retiro: Gral Paz 576</p>
+
+          <div class="btn-group my-3" role="group">
+            <button type="button" class="btn btn-sm btn-cantidad">-</button>
+            <input
+              type="number"
+              class="form-control text-center cantidad"
+              value="1"
+              min="1"
+              max="10"
+            />
+            <button type="button" class="btn btn-sm btn-cantidad">+</button>
+          </div>
+
+          <div class="d-grid gap-2 mt-3">
+            <button class="btn botn-pagar">Pagar</button>
+            <button class="btn botn-pagar">Agregar al carrito</button>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-</section>
-    </header>
-<main>
-    <div class="container">
-        <div class="row">
-        <div class="col-8 imagen-producto">
-            <img src="../assets/img/camiseta-argentina-hombre.jpg" class="imagen-detalle-producto" alt="camiseta-argentina-hombre">
-        </div>
-        <div class="col interfaz">
-            <h2 class="detalle-titulo">Camiseta argentina hombre</h2>
-            <br>
-            <p class="texto1">precio final</p>
-            <p class="texto-oferta"><del>$40000</del>-50%</p>
-            <p class="texto-oferta">$20000</p>
-            <p class="texto">precio con impuestos</p>
-            <hr>
-            <h2>cuotas habituales</h2>
-            <p class="cuota">3 cuotas sin interes</p>
-            <p class="cuota">6 cuotas sin interes</p>
-            <div class="row">
-                <i class="fa-brands fa-cc-mastercard tarjeta"></i>
-                <i class="fa-brands fa-cc-visa tarjeta"></i>
-                <i class="fa-brands fa-cc-paypal tarjeta"></i>
-            </div>
-            <hr>
-            <h2 class="detalle-titulo">selecciona tu talle</h2>
-            <div class="col">
-            <div class="dropdown talle-drop">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Talles</button>
-                <ul class="dropdown-menu talles">
-                    <li><a class="dropdown-item" href="#">S</a></li>
-                    <li><a class="dropdown-item" href="#">M</a></li>
-                    <li><a class="dropdown-item" href="#">L</a></li>
-                    <li><a class="dropdown-item" href="#">XL</a></li>
-                    <li><a class="dropdown-item" href="#">XXL</a></li>
-                </ul>
-            </div>
-            </div>
-            <hr>
-            <div class="row">
-                <p class="texto">Envios a todo el pais</p>
-                <hr>
-                <p class="texto">Retiro:</p>
-                <p>Gral paz 576</p>
-            </div>
-            <div class="btn-group" role="group" aria-label="cantidad">
-               <button type="button" class="btn btn-sm btn-cantidad">-</button>
-               <input type="number" class="form-control text-center cantidad" value="1" min="1" max="10">
-               <button type="button" class="btn btn-sm btn-cantidad">+</button>
-            </div>
-            <hr>
-            <div class="row">
-                <button class="btn botn-pagar">Pagar</button>
-                <button class="btn botn-pagar">Agregar al carrito</button>
-            </div>
-        </div>
-    </div>
-    </div>
-</main>
-<footer class="footer">
+    </main>
+
+    <footer class="footer">
         <div class="logo-footer">
-            <a href="#"><img src="../assets/img/vortex-logo2.png" alt="logo" class="vortex-logo"></a>
+            <a href="#"><img src="/assets/img/vortex-logo2.png" alt="logo" class="vortex-logo"></a>
         </div>
-        <div class="redes-sociales">
-            <h3>Redes sociales-contacto</h3>
-            <ul>
-                <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
-                <li><a href="../pages/contacto.html"><i class="fa-solid fa-phone"></i>Contacto</a></li>
-            </ul>
-        </div>
+       <div class="redes-sociales">
+  <h3>Redes sociales-contacto</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.instagram.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa-brands fa-facebook"></i> Facebook
+      </a>
+    </li>
+
+    <li>
+      <a href="/pages/contacto.html">
+        <i class="fa-solid fa-phone"></i> Contacto
+      </a>
+    </li>
+  </ul>
+</div>
+
         <div class="terminos-y-ubicacion">
-            <h3><a href="../pages/error404.html">Terminos y condiciones</a></h3>
-            <ul>Horario
-                <li>lun - vie 9am - 10m</li>
-                <li>sab 10am - 5pm</li>
+            <h3><a href="">Terminos y condiciones</a></h3>
+            <ul>Horario y ubicacion
+                <li>Lunes - Viernes 09:00 - 22:00</li>
+                <li>Sabados 10:00 - 17:00</li>
             </ul>
         </div>
         <div class="ayuda">
             <h3>Ayuda</h3>
             <ul>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/contacto.html">Contacto tecnico</a></li>
-                <li><a href="../pages/error404.html">Devoluciones</a></li>
-                <li><a href="../pages/error404.html">Preguntas frecuentes</a></li>
+                <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                <li><a href="/pages/contacto.html">Contacto</a></li>
+                <li><a href="/pages/error404.html">Devoluciones</a></li>
+                <li><a href="/pages/error404.html">Preguntas frecuentes</a></li>
             </ul>
         </div>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/de142b15d5.js" crossorigin="anonymous"></script>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/de142b15d5.js"></script>
+  </body>
 </html>
