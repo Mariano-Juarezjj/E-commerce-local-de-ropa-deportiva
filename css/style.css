@@ -107,7 +107,7 @@ header {
 
 
 .carrusel {
-    width: 100vw;
+    width: 99vw;
     height: auto;
     display: flex;
     justify-content: center;
