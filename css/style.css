@@ -20,8 +20,8 @@
 }
 
 
-.espacio {
-    padding-top: 170px;
+body {
+    padding-top: 90px;
 }
 
 header {
@@ -119,12 +119,16 @@ header {
     height: 100%;
 }
 
-.carousel-item img {
+.carousel-item  {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+.img-redonda {
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 
 .ad {
@@ -500,4 +504,37 @@ footer {
 
 .total {
     max-width: 500px;
+}
+
+@media (max-width: 576px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > div {
+        width: 100%;
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+    footer li {
+        list-style: none;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 190px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 0px;
+    }
 }
