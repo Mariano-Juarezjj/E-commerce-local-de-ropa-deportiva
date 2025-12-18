@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;600;800&display=swap');
+
+
+:root {
+    --azul-oscuro: #00296B;
+    --azul-medio: #003F88;
+    --azul-claro: #00509D;
+    --amarillo-oscuro: #FDC500;
+    --amarillo-claro: #FFD500;
+    --blanco: #ffffff;
+    --gris-claro: rgba(241, 241, 241, 0.65);
+    --negro: #000000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding-top: 90px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.navbar-section {
+    background-color: var(--amarillo-claro);
+    padding-bottom: 10px;
+}
+
+.oferta-imperdible {
+    background-color: var(--negro);
+    color: var(--blanco);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.vortex-logo {
+    width: 90px;
+    height: 90px;
+}
+
+.barra-busqueda {
+    width: 35vw;
+    display: flex;
+}
+
+.btn-buscar {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    border-radius: 10px;
+}
+
+.btn-buscar:hover {
+    background-color: var(--azul-claro);
+}
+
+.iconos {
+    display: flex;
+    gap: 20px;
+    font-size: 1.4em;
+}
+
+.iconos a {
+    color: var(--azul-oscuro);
+}
+
+.iconos a:hover {
+    color: var(--azul-claro);
+}
+
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: var(--amarillo-oscuro);
+    padding: 8px 0;
+}
+
+.categoria {
+    width: 110px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    background-color: var(--azul-medio);
+    color: var(--blanco);
+    border-radius: 10px;
+}
+
+.categoria:hover {
+    background-color: var(--azul-claro);
+}
+
+
+.carrusel {
+    width: 99vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-redonda {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.ad {
+    width: 100%;
+}
+
+.ad-container {
+    margin-top: 80px;
+    background-color: var(--amarillo-oscuro);
+    padding-bottom: 40px;
+}
+
+.ad-h1 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+}
+
+.ad-articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ad-card {
+    width: 320px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.tex-colr {
+    color: green;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-base {
+    width: 100%;
+}
+
+.img-hover {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+}
+
+.img-container:hover .img-hover {
+    opacity: 1;
+}
+
+.ad-body {
+    background-color: var(--gris-claro);
+}
+
+
+.btn-ad {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.btn-ad:hover {
+    background-color: var(--azul-claro);
+}
+
+.añadir-carrito {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.añadir-carrito:hover {
+    background-color: var(--azul-claro);
+}
+
+
+.card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-body .btn,
+.card-body button {
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+.productos-section {
+    width: 100%;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.producto-card {
+    width: 280px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.product-body {
+    background-color: var(--gris-claro);
+}
+
+
+.marcas-section {
+    width: 100%;
+}
+
+.marcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.marca-card {
+    width: 180px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: var(--amarillo-claro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 10px;
+    bottom: 0%;
+}
+
+.footer h3 {
+    font-size: 18px;
+}
+
+
+@media (max-width: 1366px) {
+
+    .barra-busqueda {
+        width: 50vw;
+    }
+
+    .vortex-logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .producto-card {
+        width: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .espacio {
+        padding-top: 220px;
+    }
+
+    .barra-busqueda {
+        width: 100%;
+    }
+
+    .carrusel-1 {
+        width: 90vw;
+    }
+
+    .producto-card,
+    .ad-card {
+        width: 90%;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .carrusel {
+        height: 10vh;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 992px) {
+    .categorias {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 15px 0;
+    }
+
+    .barra-busqueda {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iconos {
+        justify-content: center;
+    }
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.p-categtoria {
+    text-align: center;
+}
+
+.paginacion {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-detalle-producto {
+    width: 600px;
+    height: 600px;
+    display: block;
+    border: 5px solid;
+    border-color: black;
+}
+
+@media (max-width: 768px) {
+    .imagen-detalle-producto {
+        width: 450px;
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .interfaz {
+        margin-top: 50px;
+    }
+}
+
+
+.texto {
+    font-size: 27px;
+}
+
+.texto-oferta {
+    font-size: 27px;
+    color: green;
+}
+
+.cuota {
+    font-size: 20px;
+    color: green;
+}
+
+.tarjeta {
+    font-size: 50px;
+}
+
+.talle-drop {
+    width: 80px;
+    background-color: aliceblue;
+}
+
+.talles {
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+.botn-pagar {
+    height: 50px;
+    background-color: #002968;
+    color: white;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.botn-pagar:hover {
+    background-color: #003F68;
+    color: white;
+}
+
+.cantidad {
+    width: 50px;
+}
+
+.btn-cantidad {
+    background-color: #003F68;
+    color: white;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.canjear-cupon {
+    height: 160px;
+    width: 300px;
+    background-color: #FDC500;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.canjear-cupon h2 {
+    background-color: #003F68;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.canjear-cupon .btn-canjear {
+    background-color: #002968;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 74%;
+}
+
+.btn-canjear:hover {
+    background-color: #00508D;
+}
+
+.seguir-explorando {
+    width: 200px;
+    background-color: #002968;
+    border-radius: 8px;
+}
+
+.seguir-explorando a {
+    color: white;
+}
+
+.seguir-explorando:hover {
+    background-color: #00508D;
+}
+
+.pagar {
+    width: 100px;
+    background-color: #003F68;
+    color: white;
+    border-radius: 8px;
+}
+
+.pagar:hover {
+    background-color: #00508D;
+}
+
+.total {
+    max-width: 500px;
+}
+
+@media (max-width: 576px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > div {
+        width: 100%;
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+    footer li {
+        list-style: none;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 190px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 0px;
+    }
+}
